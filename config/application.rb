@@ -34,5 +34,6 @@ module Abc
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.hosts << "stiefelshopify.philippinedev.com"
   end
 end
